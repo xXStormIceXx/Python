@@ -42,4 +42,39 @@ texto1 = "campus"
 if texto1 == "campus":
     print("Soy Campus")
 else:
-    print("No soy Campus")    
+    print("No soy Campus")
+#-----FUNCIONCES--------
+# Funcion sin reetorno y sin parametros
+
+def saludar():
+ print("Hola! Mundo")
+
+# Funcion sin retorno y con parametros
+
+def saludar2(nombre):
+ print("Hola!", nombre) 
+ #llamar luego a la Finsion
+ saludar2 ("RUBEN")
+
+# Funcion con retorno y sin parametros
+
+def obtener_numero():
+    return 42
+resultado = obtener_numero ()
+print ("resultado")
+
+# Funciones con retorno y con parametros
+
+def suma(a,b):
+    resultado = a + b
+    return resultado
+# Uso de la Funcion
+resultado_suma = suma(3, 5)
+print(resultado_suma)
+#salida: 8
+
+#------ Listas-------
+# En Python un "array" se suele referir a una lista, que es una estructura de datos que pude contener elementos de diferentes tipos
+#Ejemplos
+array = ["perro", "gato", "pajaro", "peces" ]
+mi_array = [1, 2, 3, 4, 5]
