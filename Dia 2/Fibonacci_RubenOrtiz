@@ -1,9 +1,9 @@
-def fibonacci_sequence(n):
-    sequence = [0, 1]
+def secuencia_fibonacci(n):
+    secuencia = [0, 1]
     for i in range(2, n):
-        next_term = sequence[-1] + sequence[-2]
-        sequence.append(next_term)
-    return sequence
+        next_term = secuencia[-1] + secuencia[-2]
+        secuencia.append(next_term)
+    return secuencia
 
 def main():
     print("¡Bienvenido al generador de la Secuencia de Fibonacci!")
@@ -20,9 +20,9 @@ def main():
                 print("¡Hasta luego! Gracias por usar el generador de la Secuencia de Fibonacci.")
                 break
             
-            fibonacci_result = fibonacci_sequence(n)
+            resultado_fibonacci = secuencia_fibonacci(n)
             
-            print(f"\nLa Secuencia de Fibonacci hasta el término {n} es: {fibonacci_result}")
+            print(f"\nLa Secuencia de Fibonacci hasta el término {n} es: {resultado_fibonacci}")
             
             choice = input("¿Desea generar otra secuencia? (Sí/No): ").lower()
             if choice != 'si' and choice != 's':
