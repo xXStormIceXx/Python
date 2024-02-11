@@ -1,0 +1,1 @@
+{"campers": [{"id": 1, "name": "Juan", "age": 20}], "trainers": [{"id": 1, "name": "Carlos", "specialty": "Yoga Instructor"}], "routes": [{"id": 1, "name": "Mountain Trail", "difficulty": "Intermediate"}], "evaluations": [{"id": 1, "camper_id": 1, "route_id": 1, "score": 85}]}

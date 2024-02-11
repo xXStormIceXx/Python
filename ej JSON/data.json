@@ -1,0 +1,22 @@
+{
+    "clientes": [
+        {
+            "nombre": "ruben",
+            "apellido": "ortiz",
+            "edad": 25,
+            "importe": 2.55
+        },
+        {
+            "nombre": "nelcy",
+            "apellido": "ortega",
+            "edad": 49,
+            "importe": 4.55
+        },
+        {
+            "nombre": "daniel",
+            "apellido": "ortega",
+            "edad": 20,
+            "importe": 6.55
+        }
+    ]
+}
