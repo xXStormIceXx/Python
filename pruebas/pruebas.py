@@ -4,10 +4,10 @@ while (contador != 3):
     print(" ------------------------------------------") 
     print("---Bienvenido a la Base de datos Campus----")
     print("-------------------------------------------")
-    print("1.coordinador")
-    print("2.trainer ")
-    print("3. camper")
-    print("4. salir")
+    print("[c]coordinador")
+    print("[t]trainer ")
+    print("[c] camper")
+    print("[s] salir")
     
     cargo = int(input("elige"))
     if(cargo==1):
